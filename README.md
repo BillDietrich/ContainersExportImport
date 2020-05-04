@@ -38,9 +38,14 @@ Importing:
 * Bumped version number simply so I could change from self-distributed to AMO-distributed.
 
 ### 1.5
-* Try again to change from self-distributed to AMO-distributed.
+* Try again to change from self-distributed to AMO-distributed, succeeded this time.
+* AMO URL was set to https://addons.mozilla.org/en-US/firefox/addon/containers-settings-export-imp/
 
 ## To-do
 * Import wrong; the containers appear but don't "work".  Apparently the "always open new tab for domain X in container Y" assignments are stored in local storage for each extension (FMAC, Facebook Container, Google Container, etc) and there's no way for this extension to get at them.
 * Remove add-on's icon in toolbar; make UI accessible only from add-on's Preferences button in browser's Add-ons page.  Import/export is so rare that this add-on shouldn't take up toolbar space with an icon.  But there seems to be no way to remove the icon there.
 
+
+## Privacy Policy
+
+This add-on does not collect or store any of the user's private data.  All it does is read/write browser container settings and write/read them to JSON files.
